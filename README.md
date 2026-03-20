@@ -23,17 +23,17 @@ In this experiment, two methods of data handling were implemented: manual creati
 #### Functions Used
 
 * `pd.DataFrame()` – Converts dictionaries or lists into a structured table.
-* 
+  
 * `pd.read_csv()` – Loads data from external comma-separated values (CSV) files.
-* 
+ 
 * `.to_csv()` – Exports a DataFrame to a local file for storage or external use.
-* 
+  
 * `.head()` / `.tail()` – Displays the first or last 5 rows of the dataset for a quick preview.
-* 
+  
 * `.sample()` – Displays a random set of rows from the DataFrame.
-* 
+  
 * `.describe()` – Provides a statistical summary (mean, std, min, max) of numerical data.
-* 
+  
 * `.info()` – Displays a summary of the DataFrame including index, data types, and non-null counts.
 
 ---
@@ -41,9 +41,9 @@ In this experiment, two methods of data handling were implemented: manual creati
 #### Logic and Attributes Used
 
 * **Structural Attributes:** `.shape` is used to find the number of rows and columns, while `.size` gives the total number of elements.
-* 
+  
 * **Data Integrity:** `.isnull().sum()` is used to identify and count missing values, and `.duplicated().sum()` identifies repeated rows.
-* 
+  
 * **Summary Logic:** `.nunique()` is used to count distinct entries in each column, which helps in understanding data diversity.
 
 ---
